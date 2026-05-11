@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div id="loader">
+
+        <h1>sagar's web</h1>
+        
+        <p>Loading...</p>
+        
+        </div>
+    <div class="nav-bar">
+        <a class="ama" href="#">ai sagar.in</a>
+        <a href="#">account</a>
+        <a href="#">my tasks</a>
+        <a href="#">contact us</a>
+        <input id="search" class="input" placeholder="search">
+        <div id="search-result"></div>
+        <button id="but">
+            <i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="#" class="about" href="#">about us</a>
+        <a href="#" class="watch">watch anime</a> 
+        <button id="mode-toggle">🌙</button>
+        </div>
+        
+        <section class="hero">
+
+            <img id="slider" src="solo2.jfif" alt="anime">
+            <button class="prev" onclick="prevSlide()">❮</button>
+
+<button class="next" onclick="nextSlide()">❯</button>
+            
+            <div class="hero-content">
+            
+                <h1 id="typing-text"></h1>
+
+                <p id="anime-desc">
+                Experience the journey of the weakest hunter becoming the strongest.
+                </p>
+            
+            <button>Watch Now</button>
+            
+            </div>
+            
+            </section>
+
+            <section class="top-banner">
+
+                <div class="banner-card">
+                
+                <img src="naru-spaicial.jfif">
+                
+                <div class="banner-content">
+                
+                <h1>Naruto Special</h1>
+                
+                <p>Watch the legendary ninja journey.</p>
+                
+                <button>Watch Now</button>
+                
+                </div>
+                
+                </div>
+                
+                </section>
+        
+     <section class="trending">
+
+        <h1>Trending Anime</h1>
+        
+        <div class="anime-box">
+        
+            <div class="card"
+            data-title="Naruto"
+            data-desc="Naruto dreams of becoming Hokage and protecting his village."
+            data-img="naruto5.jpg"
+            data-trailer="https://www.youtube.com/watch?v=-G9BqkgZXRA">
+
+            
+            <img src="naruto5.jpg">
+            
+            <h2>Naruto</h2>
+            
+            <button>Watch Now</button>
+
+            <i class="fa-regular fa-heart like-btn"></i>
+
+            <div class="rating">
+                ⭐ 9.9
+            </div>
+            
+            </div>
+            
+            
+            <div class="card"
+            data-title="Jujutsu Kaisen"
+            data-desc="Yuji fights dangerous curses with powerful sorcerers."
+            data-img="jujutsu8.jfif"
+            data-trailer="https://youtu.be/RYI-WG_HFV8?si=WZx-VUWzVhI4n8Z3">
+            
+            
+            
+            <img src="jujutsu8.jfif">
+            
+            <h2>Jujutsu Kaisen</h2>
+            
+            <button>Watch Now</button>
+            <i class="fa-regular fa-heart like-btn"></i>
+
+            <div class="rating">
+                ⭐ 9.8
+            </div>
+            
+            </div>
+            
+            
+            <div class="card"
+            data-title="One Piece"
+            data-desc="Luffy sails across the seas searching for the One Piece treasure."
+            data-img="26035.jpg"
+            data-trailer="https://youtu.be/YnczpEoeaDM?si=jLSS6ldgQkzULbvn">
+            
+            <img src="26035.jpg">
+            
+            <h2>One Piece</h2>
+            
+            <button>Watch Now</button>
+            <i class="fa-regular fa-heart like-btn"></i>
+
+            <div class="rating">
+                ⭐ 9.5
+            </div>
+            
+            </div>
+            
+            
+            <div class="card"
+            data-title="Attack On Titan"
+            data-desc="Humanity battles giant titans to survive."
+            data-img="download.jfif"
+            data-trailer="https://youtu.be/LV-nazLVmgo?si=5QpfXuRsap_wXWkJ">
+            
+            <img src="download.jfif">
+            
+            <h2>Attack On Titan</h2>
+            
+            <button>Watch Now</button>
+            <i class="fa-regular fa-heart like-btn"></i>
+
+            <div class="rating">
+                ⭐ 9.2
+            </div>
+            </div>
+            
+            
+            <div class="card"
+            data-title="Tokyo Revengers"
+            data-desc="Takemichi travels through time to save his friends."
+            data-img="download (1).jfif"
+            data-trailer="https://youtu.be/N5FVCA6OdCM?si=EDRIQbuw0jjEGL6D">
+            
+            <img src="download (1).jfif">
+            
+            <h2>Tokyo Revengers</h2>
+            
+            <button>Watch Now</button>
+            <i class="fa-regular fa-heart like-btn"></i>
+
+            <div class="rating">
+                ⭐ 7.5
+            </div>
+            </div>
+         
+        </div>
+    </section>
+    
+    <section class="popular">
+    
+    <h1>Popular Anime</h1>
+    
+    <div class="popular-box">
+            
+            <div class="card"
+            data-title="Demon Slayer"
+            data-desc="Tanjiro becomes a demon slayer to save his sister."
+            data-img="demon slayer.jfif"
+            data-trailer="https://youtu.be/fmWc9lWcuGc?si=9rCed_ufwPpB823G">
+            
+            <img src="demon slayer.jfif">
+            
+            <h2>Demon Slayer</h2>
+            
+            <button>Watch Now</button>
+            <i class="fa-regular fa-heart like-btn"></i>
+            <div class="rating">
+                ⭐ 9.7
+            </div>
+            </div>
+            
+            
+            <div class="card"
+            data-title="Bleach"
+            data-desc="Ichigo gains soul reaper powers to protect humanity."
+            data-img="bleach.jfif"
+            data-trailer="https://youtu.be/fmWc9lWcuGc?si=9rCed_ufwPpB823G">
+            
+            <img src="bleach.jfif">
+            
+            <h2>Bleach</h2>
+            
+            <button>Watch Now</button>
+            <i class="fa-regular fa-heart like-btn"></i>
+            <div class="rating">
+                ⭐ 8.8
+            </div>
+            </div>
+            
+            
+            <div class="card"
+            data-title="Death Note"
+            data-desc="Light Yagami discovers a notebook with deadly powers."
+            data-img="death-note.jfif"
+            data-trailer="https://youtu.be/NlJZ-YgAt-c?si=WFeCTE-hVsDWRuwp">
+            
+            <img src="death-note.jfif">
+            
+            <h2>Death Note</h2>
+            
+            <button>Watch Now</button>
+            <i class="fa-regular fa-heart like-btn"></i>
+            <div class="rating">
+                ⭐ 9.4
+            </div>
+            </div>
+            
+            
+            <div class="card"
+            data-title="Chainsaw Man"
+            data-desc="Denji fights devils using his chainsaw powers."
+            data-img="chainshow-man.jfif"
+            data-trailer="https://youtu.be/j9sSzNmB5po?si=LBhA3vpak-8Ph1Gy">
+        
+            
+            <img src="chainshow-man.jfif">
+            
+            <h2>Chainsaw Man</h2>
+            
+            <button>Watch Now</button>
+            <i class="fa-regular fa-heart like-btn"></i>
+            <div class="rating">
+                ⭐ 7.9
+            </div>
+            </div>
+            
+            </div>
+            </section>
+
+            <section class="episodes">
+
+                <h1>New Episodes</h1>
+                
+                <div class="episode-box">
+                
+                <div class="episode-card">
+                <h2>Solo Leveling Ep 12</h2>
+                <p>Released Saturday</p>
+                <button>Watch Episode</button>
+                </div>
+                
+                <div class="episode-card">
+                <h2>Jujutsu Kaisen Ep 20</h2>
+                <p>Released Friday</p>
+                <button>Watch Episode</button>
+                </div>
+                
+                <div class="episode-card">
+                <h2>Attack On Titan Final</h2>
+                <p>Released Sunday</p>
+                <button>Watch Episode</button>
+                </div>
+                
+                </div>
+                </section>
+
+                <section class="genres">
+
+                    <h1>Genres</h1>
+                    
+                    <div class="genre-box">
+                    
+                    <button>Action</button>
+                    <button>Romance</button>
+                    <button>Fantasy</button>
+                    <button>Horror</button>
+                    <button>Comedy</button>
+                    <button>Adventure</button>
+                    
+                    </div>
+                    
+                    </section>
+
+                    <footer class="footer">
+
+                        <h2>Anime World</h2>
+                        
+                        <p>Watch your favorite anime anytime.</p>
+                        
+                        <div class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">Popular</a>
+                        <a href="#">Genres</a>
+                        <a href="#">Contact</a>
+                        </div>
+                        
+                        <p class="copy">© 2026 Anime World. All Rights Reserved.</p>
+                        
+                        </footer>
+                     
+
+
+                        
+
+
+                        <div class="popup" id="popup">
+
+                            <div class="popup-content">
+                        
+                                <span class="close">&times;</span>
+                        
+                                <img id="popup-img" src="">
+                        
+                                <h1 id="popup-title"></h1>
+                        
+                                <p id="popup-desc"></p>
+                        
+                                <a id="trailer-link" target="_blank">
+                                    <button id="trailer-btn">Watch Trailer</button>
+                                </a>
+                        
+                            </div>
+                        
+                        </div>
+                                    
+                                
+                        
+                            </div>
+                        
+                        </div>
+                        <button id="topBtn">
+                            <i class="fa-solid fa-arrow-up"></i>
+                            </button>
+                        <script src="script.js"></script>
+
+     </body>
+</html>
